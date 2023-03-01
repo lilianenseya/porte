@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 main{
-    background-color:#F36F76;
+    /* background-color:#F36F76; */
 }
 .contenaire{
  display: flex;
@@ -12,6 +12,7 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 margin: auto;
+height: auto;
 }
 h1{
     color:white;
@@ -26,10 +27,14 @@ nav{
     margin-top: 40px;
     color: #3b48f7;
 }
+nav:hover {
+    background-color: blue;
+    color: white;
+ }
 .Accueil{
     display: flex;
-    height: 400px;
-    width: 4OOpx;
+    height: 500px;
+    width: 45Opx;
     justify-content: center;
     align-items: center;
 
